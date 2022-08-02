@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React from "react";
+import NavBar from './component/NavBar/NavBar';
+import Footer from './component/Footer/Footer';
+import {Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import {CssBaseline, Card, Typography, Paper, Button} from '@mui/material';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Router>
+     
+      <CssBaseline /> 
+    <div>
+    <NavBar />
     </div>
+    <main>
+     
+     </main>
+   
+    <div>
+      <Footer />
+    </div>
+     </Router>
+    </>
   );
 }
 

@@ -1,0 +1,39 @@
+
+
+    .drawerLink {
+        text-decoration: none;
+        color: #EC4EE2  !important;
+        font-size: 15px;
+        font-family: 'Finlandica', sans-serif !important;
+    }
+
+    .icon{
+        color:#EC4EE2 !important;
+    }
+
+    .primary {
+        color:#EC4EE2;
+      }
+
+     .secondary {
+       color: yellowgreen!important;
+     }
+
+     .drawer {
+         background-color: black !important;
+         padding-bottom: 400px;
+     }
+
+     .drawerHeader {
+        color:yellowgreen;
+       
+        text-decoration: none;
+        font-family: 'Finlandica', sans-serif !important;
+        font-size: 25px;
+     }
+
+     .icon {
+        color: yellowgreen !important;
+        margin: 5px; 
+     }
+     

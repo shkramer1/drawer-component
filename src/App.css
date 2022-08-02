@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+.appHeader {
+    color: yellowgreen !important;
+    background-color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.appSubtitle {
+    color: yellowgreen !important;
+    background-color: black;
+    font-family: 'Finlandica', sans-serif !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.appListHeader {
+    color: yellowgreen !important;
+    margin: 15px !important; 
+    font-family: 'Finlandica', sans-serif !important;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .card {
+    margin-left: 500px !important;
+    margin-right: 500px !important; 
+    margin-top: 50px !important; 
+} */
